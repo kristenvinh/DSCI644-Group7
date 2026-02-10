@@ -19,4 +19,4 @@ Log MD Template created with assistance of Gemini.
 | **Logic** (Prompting & Extraction) | | |
 | **Refinement** (Fixing JSON/Parsing) | | |
 
-**Total Logic Time (Min):** [Sum of Logic + Refinement]
+**Total Time (Min):** [Sum]
