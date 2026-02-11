@@ -32,5 +32,6 @@ Log MD Template created with assistance of Gemini.
 | **Refinement** (Fixing JSON/Parsing) |10| Simple JSON Parsing to Pandas DF worked.|
 
 **Total Time (Min):**    87
+
 **Other Notes:** Also spent some time setting up OpenAI and Gemini API credentials, not counting that here as time. 
 
