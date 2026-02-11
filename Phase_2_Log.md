@@ -27,7 +27,7 @@ Log MD Template created with assistance of Gemini.
 
 | Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
 | :--- | :--- | :--- |
-| **Foundation** (Boilerplate, BS4) |27| Getting BS4 with UC set up, simple BS4 script did not work correctly. Pulled down 30 Job Card divs for further processing using OpenAI. Will likely want to pre-process to remove unnecessary tags before sending to OpenAi. |
+| **Foundation** (Boilerplate, BS4) |29| Getting BS4 with UC set up, simple BS4 script did not work correctly. Pulled down 30 Job Card divs for further processing using OpenAI. Will likely want to pre-process to remove unnecessary tags before sending to OpenAi. |
 | **Logic** (Prompting & Extraction) |11 | Setting up Open AI API credentials, ensuring it works accurately.|
 | **Refinement** (Fixing JSON/Parsing) | | |
 
