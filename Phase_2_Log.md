@@ -20,3 +20,15 @@ Log MD Template created with assistance of Gemini.
 | **Refinement** (Fixing JSON/Parsing) | | |
 
 **Total Time (Min):** [Sum]
+
+### Date: [20206-02-11] | Developer: [Kristen Vinh]
+**Site Target:** Jooble
+**Target Fields:** Title, Salary, Skills, Location, Education.
+
+| Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
+| :--- | :--- | :--- |
+| **Foundation** (Boilerplate, BS4) | | |
+| **Logic** (Prompting & Extraction) |9 | Setting up Open AI API call testing.|
+| **Refinement** (Fixing JSON/Parsing) | | |
+
+**Total Time (Min):** [Sum]
