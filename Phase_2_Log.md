@@ -28,8 +28,8 @@ Log MD Template created with assistance of Gemini.
 | Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
 | :--- | :--- | :--- |
 | **Foundation** (Boilerplate, BS4) |32| Getting BS4 with UC set up, simple BS4 script did not work correctly. Pulled down 30 Job Card divs for further processing using LLM. Also wrote pre-processing scripts so it processed faster on the LLM side. |
-| **Logic** (Prompting & Extraction) |45 | Set up Gemini basics, might need to go back and adjust either script if other information is not loading correctly.|
-| **Refinement** (Fixing JSON/Parsing) |0 | |
+| **Logic** (Prompting & Extraction) |45 | Set up Gemini basics, might need to go back and adjust either script if other information is not loading correctly. Gemini seemed to strip information well on a first pass, an initial OpenAI request was failing.|
+| **Refinement** (Fixing JSON/Parsing) |10| Simple JSON Parsing to Pandas DF worked.|
 
 **Total Time (Min):** 32
 **Other Notes:** Also spent some time setting up OpenAI and Gemini API credentials, not counting that here as time. 
