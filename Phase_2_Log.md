@@ -11,7 +11,7 @@ Log MD Template created with assistance of Gemini.
 
 ### Date: [YYYY-MM-DD] | Developer: [Name]
 **Site Target:** [e.g., Jooble / Wellfound]
-**Target Fields:** Title, Salary, Skills, Location, Education.
+**Target Fields:** Title, Salary, Skills, Location, Education, Company.
 
 | Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
 | :--- | :--- | :--- |
