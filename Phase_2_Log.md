@@ -33,5 +33,5 @@ Log MD Template created with assistance of Gemini.
 
 **Total Time (Min):**    87
 
-**Other Notes:** Also spent some time setting up OpenAI and Gemini API credentials, not counting that here as time. 
+**Other Notes:** Also spent some time setting up OpenAI and Gemini API credentials, not counting that here as time. I attempted to set up similar code using OpenAI, but ran into issues with JSON output formats, so Gemini is likely the easier way to go. 
 
