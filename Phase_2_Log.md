@@ -27,8 +27,8 @@ Log MD Template created with assistance of Gemini.
 
 | Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
 | :--- | :--- | :--- |
-| **Foundation** (Boilerplate, BS4) | | |
-| **Logic** (Prompting & Extraction) |9 | Setting up Open AI API call testing.|
+| **Foundation** (Boilerplate, BS4) |20| Getting BS4 with UC set up, simple BS4 script did not work correctly. |
+| **Logic** (Prompting & Extraction) |11 | Setting up Open AI API credentials, ensuring it works accurately.|
 | **Refinement** (Fixing JSON/Parsing) | | |
 
-**Total Time (Min):** [Sum]
+**Total Time (Min):** 31
