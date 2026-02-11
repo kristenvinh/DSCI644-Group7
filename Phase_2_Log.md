@@ -11,7 +11,7 @@ Log MD Template created with assistance of Gemini.
 
 ### Date: [YYYY-MM-DD] | Developer: [Name]
 **Site Target:** [e.g., Jooble / Wellfound]
-**Target Fields:** Title, Salary, Skills, Location, Education.
+**Target Fields:** Title, Salary, Skills, Location, Education, Company.
 
 | Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
 | :--- | :--- | :--- |
@@ -23,13 +23,14 @@ Log MD Template created with assistance of Gemini.
 
 ### Date: [20206-02-11] | Developer: [Kristen Vinh]
 **Site Target:** Jooble
-**Target Fields:** Title, Salary, Skills, Location, Education.
+**Target Fields:** Title, Salary, Skills, Location, Education, Company.
 
 | Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
 | :--- | :--- | :--- |
-| **Foundation** (Boilerplate, BS4) |32| Getting BS4 with UC set up, simple BS4 script did not work correctly. Pulled down 30 Job Card divs for further processing using OpenAI. Will likely want to pre-process to remove unnecessary tags before sending to OpenAi. |
-| **Logic** (Prompting & Extraction) |0 | |
+| **Foundation** (Boilerplate, BS4) |32| Getting BS4 with UC set up, simple BS4 script did not work correctly. Pulled down 30 Job Card divs for further processing using LLM. Also wrote pre-processing scripts so it processed faster on the LLM side. |
+| **Logic** (Prompting & Extraction) |45 | Set up Gemini basics, might need to go back and adjust either script if other information is not loading correctly.|
 | **Refinement** (Fixing JSON/Parsing) |0 | |
 
 **Total Time (Min):** 32
-**Other Notes:** Also spent some time setting up OpenAI API credentials, not counting that here as time. 
+**Other Notes:** Also spent some time setting up OpenAI and Gemini API credentials, not counting that here as time. 
+
