@@ -19,10 +19,10 @@ def extract_jobs(shaved_html_list):
     prompt = f"""
         Extract job details from the following HTML snippets from Jooble.
         Fields to extract:
-        - job_title
-        - company_name
-        - location
-        - salary (as a number, converted to yearly, or "Not Listed")
+        - job_title (as string)
+        - company_name (as string)
+        - location (as string)
+        - salary (as a string, with details on whether hourly, monthly, yearly,etc. or "Not Listed")
         - qualifications_experience (as list of strings, or "Not Listed")
         - education_requirements (as string, or "Not Listed")
 
