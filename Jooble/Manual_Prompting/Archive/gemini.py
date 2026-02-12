@@ -1,4 +1,4 @@
-import bs4_parser
+import Jooble.Manual_Prompting.Gemini.bs4_parser as bs4_parser
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv
