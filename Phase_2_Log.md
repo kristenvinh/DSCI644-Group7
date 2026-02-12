@@ -39,6 +39,7 @@ Log MD Template created with assistance of Gemini.
 
 ### Date: [20206-02-12] | Developer: [Kristen Vinh]
 **Site Target:** Jooble
+**API:** Gemini
 **Target Fields:** Title, Salary, Qualifications, Location, Education, Company.
 
 | Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
@@ -46,6 +47,21 @@ Log MD Template created with assistance of Gemini.
 | **Foundation** (Boilerplate, BS4) | | |
 | **Logic** (Prompting & Extraction) | 15 |Refactoring code to OpenAI library so multiple LLMs could be tested.|
 | **Refinement** (Fixing JSON/Parsing) | | |
+
+**Total Time (Min):** 15
+
+**Other Notes:** 
+
+### Date: [20206-02-12] | Developer: [Kristen Vinh]
+**Site Target:** Jooble
+**API:** ChatGPT
+**Target Fields:** Title, Salary, Qualifications, Location, Education, Company.
+
+| Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
+| :--- | :--- | :--- |
+| **Foundation** (Boilerplate, BS4) | | |
+| **Logic** (Prompting & Extraction) | 5 | Updating prompts for ChatGPT -- had to be more strictly worded than Gemini|
+| **Refinement** (Fixing JSON/Parsing) |10 | Went back and forth with parsing fixes due to ChatGPT returning inconsistent responses.|
 
 **Total Time (Min):** 15
 
