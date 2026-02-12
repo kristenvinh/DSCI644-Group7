@@ -11,6 +11,7 @@ Log MD Template created with assistance of Gemini.
 
 ### Date: [YYYY-MM-DD] | Developer: [Name]
 **Site Target:** [e.g., Jooble / Wellfound]
+**API:** [e.g., ChatGPT, Gemini, Claude, etc.]
 **Target Fields:** Title, Salary, Qualifications, Location, Education, Company.
 
 | Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
@@ -23,7 +24,8 @@ Log MD Template created with assistance of Gemini.
 
 ### Date: [20206-02-11] | Developer: [Kristen Vinh]
 **Site Target:** Jooble
-**Target Fields:** Title, Salary, Skills, Location, Education, Company.
+**API:** Gemini
+**Target Fields:** Title, Salary, Location, Education, Company.
 
 | Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
 | :--- | :--- | :--- |
@@ -35,3 +37,16 @@ Log MD Template created with assistance of Gemini.
 
 **Other Notes:** Also spent some time setting up OpenAI and Gemini API credentials, not counting that here as time. I attempted to set up similar code using OpenAI, but ran into issues with JSON output formats, so Gemini is likely the easier way to go. 
 
+### Date: [20206-02-12] | Developer: [Kristen Vinh]
+**Site Target:** Jooble
+**Target Fields:** Title, Salary, Qualifications, Location, Education, Company.
+
+| Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
+| :--- | :--- | :--- |
+| **Foundation** (Boilerplate, BS4) | | |
+| **Logic** (Prompting & Extraction) | 15 |Refactoring code to OpenAI library so multiple LLMs could be tested.|
+| **Refinement** (Fixing JSON/Parsing) | | |
+
+**Total Time (Min):** 15
+
+**Other Notes:** 
