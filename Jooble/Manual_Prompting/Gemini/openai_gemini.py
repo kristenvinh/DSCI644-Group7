@@ -22,9 +22,11 @@ def extract_jobs(shaved_html_list):
         - job_title (as string)
         - company_name (as string)
         - location (as string)
-        - salary (as a string, with details on whether hourly, monthly, yearly,etc. or "Not Listed")
-        - qualifications_experience (as list of strings, or "Not Listed")
-        - education_requirements (as string, or "Not Listed")
+        - salary (as a number)
+        - salary_type (as string, e.g. "hourly", "monthly", "yearly", or "Not Listed")
+        - job_description (as string, or "Not Listed")
+        - job_tags (Full Time, Part Time, Contract, Temporary, Remote etc. as string)
+        - job_url (as string)
 
         Return the data as a JSON array of objects.
     
