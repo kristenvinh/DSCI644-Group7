@@ -65,4 +65,18 @@ Log MD Template created with assistance of Gemini.
 
 **Total Time (Min):** 15
 
-**Other Notes:** 
+
+
+### Date: [20206-02-18] | Developer: [Kristen Vinh]
+**Site Target:** Jooble
+**API:** Gemini
+**Target Fields:** Title, Salary, Qualifications, Location, Education, Company.
+
+| Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
+| :--- | :--- | :--- |
+| **Foundation** (Boilerplate, BS4) |20 | Adding Save JSON raw HTML format so that if website changes, it is saved for ground truth later. Doesn't necessarily need to be included in development time, but tracking here for log purposes.|
+| **Logic** (Prompting & Extraction) |11  | Updating Extraction variables so they're more in line with Jooble's job listing pages. |
+| **Refinement** (Fixing JSON/Parsing) | | |
+
+**Total Time (Min):** 20
+
