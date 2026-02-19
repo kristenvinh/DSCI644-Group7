@@ -10,7 +10,7 @@ def main():
     #Uncomment and run this again if you want to collect fresh data or more data.
     # html_snippets = bs4_parser.get_jooble_jobs('https://jooble.org/SearchResult?rgns=Remote&ukw=data%20scientist', 60)
     # save_html.save_raw_jobs(html_snippets)
-    loaded_html = save_html.load_raw_jobs('ground_truth_jobs_2026-02-19_11-45-11.json') 
+    loaded_html = save_html.load_raw_jobs('ground_truth_jobs_2026-02-19_12-06-44.json') 
     cleaned_html = bs4_parser.shave_job_html(loaded_html)
     job_json = openai_gemini.extract_jobs(cleaned_html)
     df = json_parsing.parse_json_to_dataframe(job_json)
