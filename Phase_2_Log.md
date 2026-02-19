@@ -80,3 +80,16 @@ Log MD Template created with assistance of Gemini.
 
 **Total Time (Min):** 20
 
+### Date: [20206-02-19] | Developer: [Kristen Vinh]
+**Site Target:** Jooble
+**API:** Gemini
+**Target Fields:** Title, Salary, Salary Type, Location, Company Name, Job Description, Job Tags, Job URL. 
+
+| Activity Bucket | Minutes (from WakaTime) | Notes/Obstacles |
+| :--- | :--- | :--- |
+| **Foundation** (Boilerplate, BS4) | | |
+| **Logic** (Prompting & Extraction) |5 | Changing Structure to deal with Gemini Timeout, timed out after 40 jobs. |
+| **Refinement** (Fixing JSON/Parsing) | | |
+
+**Total Time (Min):** 5
+
