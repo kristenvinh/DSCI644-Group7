@@ -6,7 +6,7 @@ import sys
 def save_raw_jobs(jobs_list):
     # Create a filename with a timestamp (versioning!)
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    filename = f"ground_truth_jobs_{timestamp}.json"
+    filename = f"../data/ground_truth_jobs_{timestamp}.json"
     
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(jobs_list, f, ensure_ascii=False, indent=4)
