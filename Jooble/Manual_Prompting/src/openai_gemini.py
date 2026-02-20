@@ -10,6 +10,8 @@ client = OpenAI(
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
+#Written with Gemini Assistance
+#Needed to be adjusted to ensure that Gemini would process all batches
 def extract_jobs(shaved_html_list, batch_size=15):
     all_extracted_jobs = []
     total_batches = (len(shaved_html_list) + batch_size - 1) // batch_size
@@ -29,7 +31,7 @@ def extract_jobs(shaved_html_list, batch_size=15):
             - job_title (as string)
             - company_name (as string)
             - location (as string)
-            - salary (as a number, or null if not listed)
+            - salary (as a number, or null if not listed). If a range is given, extract the lower bound as the salary.
             - salary_type (as string, e.g. "hourly", "monthly", "yearly", or "Not Listed")
             - job_description (as string, or "Not Listed")
             - job_tags (Full Time, Part Time, Contract, Temporary, Remote etc. as string)
